@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cMiegFlQ34jybxQ4cLGWYWnUgZ051TtLKpB7Wcol/WY+jb+TEYT/QdPk4qjjJuU7nA4dc6Z7DkopX2qQp7oJJw==",
+  "dgSpecHash": "4CPS1IiE+zNulXwGhmLnqSbteLmELbUXw85m0FeOQ7EErQLfwdJs8/N0U4Meh92lcVGTuhBj0bQlzpPCoDBWNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HanDev\\Desktop\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\HanDev\\Desktop\\ApiMysql\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HanDev\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\HanDev\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

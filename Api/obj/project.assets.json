@@ -958,11 +958,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HanDev\\Desktop\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\Users\\HanDev\\Desktop\\ApiMysql\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\HanDev\\Desktop\\Api\\Api.csproj",
+      "projectPath": "C:\\Users\\HanDev\\Desktop\\ApiMysql\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\HanDev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HanDev\\Desktop\\Api\\obj\\",
+      "outputPath": "C:\\Users\\HanDev\\Desktop\\ApiMysql\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

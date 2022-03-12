@@ -28,7 +28,6 @@ namespace Api.Controllers
             {
                 var sql = "SELECT * FROM productos";
                 var result = db.Query<Productos>(sql);
-               
                 foreach(var p in result)
                 {
                     Productos pl = new Productos();
@@ -36,6 +35,7 @@ namespace Api.Controllers
                     pl.rowid = p.rowid;
                     pl.descripcion = p.descripcion;
                     pl.precio = p.precio;
+                    pl.img = p.img;
 
                     pr.Add(pl);
                 }
