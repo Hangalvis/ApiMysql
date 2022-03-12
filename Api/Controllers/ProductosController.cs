@@ -59,8 +59,24 @@ namespace Api.Controllers
 
         // POST api/<ProductosController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public String Post([FromBody] Productos model/*string value*/)
         {
+            
+            try
+            {
+
+                using (var db = new MySqlConnection(con.conexion))
+                {
+                    var sqlinsert = "INSERT INTO productos ( nombre, descripcion, precio, img) VALUES ( '"+model.nombre+ "', '" + model.descripcion + "', '" + model.precio + "', '" + model.img + "');";
+                    var result = db.Execute(sqlinsert);
+                   
+                }
+            }
+            catch (Exception e)
+            {
+                return "ERROR :"+e;
+            }
+            return "CREADO";
         }
 
         // PUT api/<ProductosController>/5
